@@ -1,0 +1,17 @@
+{
+  "name": "problem-set-02",
+  "version": "0.2.22.4",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "css": "^3.0.0",
+    "inline-css": "^4.0.1",
+    "jest-style-matchers": "^0.1.3"
+  }
+}
