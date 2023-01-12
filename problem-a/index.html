@@ -8,44 +8,48 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="container">
+  <header>
+    <!-- Page Title -->
+    <h1>My Photo Journal</h1>
+    <p>A collection of photographs I like, updated daily</p>
+  </header>
+  <main>
+    <section>
+      <!-- Image Post -->
+      <header>
+        <h2>The Cutest Puppy!</h2>
+        <p class="time-posted">Posted <time datetime="2021-09-01">last year</time></p>
+      </header>
+      <p>OMG I found the <em>CUTEST</em> puppy! Check it out!</p>
+      <p>
+        <img src="img/2959326615_af04f9878a_z.jpg" alt="A black and white dog named Blizzard who lives in Antarctica">
+      </p>
+      <p>This picture is <cite>"Blizzard, the pup in Antarctica", by Frank Harvey. From the <a href="https://www.flickr.com/photos/statelibraryofnsw/2959326615/">State Library of NSW</a></cite>.</p>
+    </section>
 
-  <!-- Page Title -->
-  <h1>My Photo Journal</h1>
-  <p>A collection of photographs I like, updated daily</p>
-
-
-  <!-- Image Post -->
-  <h3>The Cutest Puppy!</h3>
-  <h6>Posted last year</h6>
-
-  <p>OMG I found the <i>CUTEST</i> puppy! Check it out!</p>
-  <p>
-    <img src="img/2959326615_af04f9878a_z.jpg">
-  </p>
-  <p>This picture is <i>"Blizzard, the pup in Antarctica", by Frank Harvey. From the <a href="https://www.flickr.com/photos/statelibraryofnsw/2959326615/">State Library of NSW</a></i>.</p>
-
-
-  <!-- Comment Form -->
-  <form>
-    <h3>Leave a comment</h3>
-    <div>
-      Email: <input id="email_input" placeholder="email@domain.com">
-      Password: <input id="password_input">
-    </div>
-    <div>
-      Comment:
-      <textarea class="form-control" id="comment_field"></textarea>
-    </div>
-    <button type="submit"><i class="fas fa-pencil-alt"></i></button>
-  </form>
-
-
+    <section>
+      <!-- Comment Form -->
+      <form>
+        <h2 class="text-small">Leave a comment</h2>
+        <div>
+          <label for="email_input">Email: </label><input id="email_input" placeholder="email@domain.com" type="email" name="email">
+          <label for="password_input">Password: </label><input id="password_input" type="password" name="password">
+        </div>
+        <div>
+          <label for="comment_field">Comment:</label>
+          <textarea class="form-control" id="comment_field" name="comment"></textarea>
+        </div>
+        <button type="submit"><i class="fas fa-pencil-alt" aria-label="Submit"></i></button>
+      </form>
+    </section>
+  </main>
+  <footer>
   <!-- Author Info -->
-  <p>This journal was created by me using my own two hands.</p>
-  <p>
-    Contact me at me@here.com, or at (555) 123-4567.
-  </p>
-  <p>copyright 2019 The Author.</p>
- 
+    <p>This journal was created by me using my own two hands.</p>
+    <address>
+      Contact me at <a href="mailto:me@here.com">me@here.com</a>, or at <a href="tel:555-123-4567">(555) 123-4567</a>.
+    </address>
+    <p>&copy; 2019 The Author.</p>
+  </footer>
 </body>
 </html>
