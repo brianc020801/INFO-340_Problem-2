@@ -23,3 +23,8 @@ npx jest problem-a
 # Run tests for all problems
 npx jest
 ```
+
+Final Webpage:
+
+https://htmlpreview.github.io/?https://github.com/brianc020801/INFO-340_Problem-2/blob/main/problem-a/index.html
+https://htmlpreview.github.io/?https://github.com/brianc020801/INFO-340_Problem-2/blob/main/problem-b/index.html
